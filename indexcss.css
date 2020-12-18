@@ -1,15 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 h1{
     background-image: url(sora.jpg);
     text-align: center;
     padding: 10%;
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 ul{
     text-align: center;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 li{
-    display:inline;
+    
+    flex: auto;
     list-style:none;
-    padding: 1% 6%;
+    padding: 2% 6%;
     background : black;
     color:blanchedalmond;
 }
@@ -23,7 +36,16 @@ h4{
 p{
     text-align: center;
 }
+.myImage{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 .myImage-left{
-    float: left;
-    box-sizing: border-box;
+    margin-right: 20px;
+    width: 10%;
+    padding: 1%;
+}
+.protext{
+    text-align: left;
 }
