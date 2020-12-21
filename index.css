@@ -3,14 +3,14 @@ body{
     padding: 0;
 }
 h1{
-    background-image: url(sora.jpg);
+    background-image: url(./image/sora.jpg);
     text-align: center;
     padding: 10%;
     margin: 0;
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
+
 }
 ul{
     text-align: center;
