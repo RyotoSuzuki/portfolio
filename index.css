@@ -8,7 +8,9 @@ canvas {
     left: 0;
     z-index: 1;
   }
-
+#background{
+    /* background-image: url(./image/winter.png); */
+}
 #hoge{
     /* background-image: url(./image/sora.jpg); */
     text-align: center;
@@ -16,11 +18,11 @@ canvas {
     /* background-position: center center;
     background-repeat: no-repeat;  */
     width:100%;
-    min-height: 100vh;
+    height: 100vh;
     margin:0;
     padding: 0;
     background-size: cover;
-    background-color: rgb(55, 0, 255);
+    background-image: url(./image/winter.png);
 
 }
 ul{
@@ -28,9 +30,9 @@ ul{
     display:flex;
     align-items: flex-start;
     justify-content: center;
+    margin: 0; 
 }
 li{
-    
     flex: auto;
     list-style:none;
     padding: 2% 6%;
