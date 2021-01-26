@@ -10,9 +10,9 @@
  
 //    document.addEventListener('mousewheel', noScroll, { passive: false });
 //    // スクロール禁止を解除(SP)
-// //    document.removeEventListener('touchmove', noScroll, { passive: false });
+//    document.removeEventListener('touchmove', noScroll, { passive: false });
 //    // スクロール禁止を解除(PC)
-// //    document.removeEventListener('mousewheel', noScroll, { passive: false });
+//    document.removeEventListener('mousewheel', noScroll, { passive: false });
 //  };
 function buttonClick(){
    // removeEvent()
