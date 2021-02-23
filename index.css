@@ -50,7 +50,7 @@ h4{
 p{
     text-align: center;
 }
-.myImage{ 
+.my-image{ 
     display: flex;
     text-align: center;
     justify-content: center;
@@ -62,4 +62,5 @@ p{
 }
 .protext{
     text-align: left;
+    vertical-align:middle;
 }
